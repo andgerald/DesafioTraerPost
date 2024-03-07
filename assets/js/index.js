@@ -16,7 +16,7 @@ const getDatos = () => {
         datos.forEach((element) => {
           if (element.id <= 5) {
             post.innerHTML += `
-            <li>${element.title} </li>
+            <li><strong>${element.title}</strong> </li>
             <p>${element.body}</p>
             `;
           }
